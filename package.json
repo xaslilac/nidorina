@@ -35,7 +35,7 @@
 		"typescript": "^3.9.0"
 	},
 	"scripts": {
-		"dev": "nest start --debug --watch --preserveWatchOutput",
+		"dev": "nest start --watch --preserveWatchOutput",
 		"prebuild": "rimraf dist",
 		"build": "nest build",
 		"fmt": "prettier --ignore-path .gitignore --write .",
